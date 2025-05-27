@@ -49,6 +49,17 @@ ninja.data = [{
             window.location.href = "/blog/2025/%E8%AF%BB%E5%90%8E%E6%84%9F%E4%B9%8B%E5%8E%9F%E5%AD%90%E4%B9%A0%E6%83%AF/";
           
         },
+      },{id: "post-荒唐言",
+        
+          title: "荒唐言",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/%E8%8D%92%E5%94%90%E8%A8%80/";
+          
+        },
       },{id: "post-增肌-减脂和营养素",
         
           title: "增肌、减脂和营养素",
