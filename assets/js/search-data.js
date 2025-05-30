@@ -200,6 +200,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2024-12-15-acsacconf/";
+            },},{id: "news-stay-hungry-stay-foolish",
+          title: 'Stay hungry, Stay Foolish',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-05-30-rebirth/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
