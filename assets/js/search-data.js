@@ -205,6 +205,11 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/2025-05-30-rebirth/";
+            },},{id: "news-我又不脆弱-何况那算什么伤",
+          title: '我又不脆弱，何况那算什么伤',
+          description: "",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025-07-06-%E6%88%91%E5%8F%88%E4%B8%8D%E8%84%86%E5%BC%B1%EF%BC%8C%E4%BD%95%E5%86%B5%E9%82%A3%E7%AE%97%E4%BB%80%E4%B9%88%E4%BC%A4/";
             },},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
