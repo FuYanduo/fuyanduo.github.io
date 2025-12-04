@@ -13,7 +13,6 @@ main:
     code: https://github.com/Leaky-Autofill/LeakyAutofill-Artifact
     slides: http://freedomfu.github.io/assets/files/acasc2024-slides.pdf
     ccfb: CCF-B
-    codenotes: <a href="https://github.com/Leaky-Autofill/LeakyAutofill-Artifact/stargazers"><img src="https://img.shields.io/github/stars/Leaky-Autofill/LeakyAutofill-Artifact" alt="Stars Badge"/></a>
 
   - title: "The Broken Verifying: Inspections at Verification Tools for Windows Code-Signing Signatures"
     authors: Guangqi Liu, Qiongxiao Wang, Cunqing Ma, Jingqiang Lin, <strong>Yanduo Fu</strong>, Bingyu Li, Dingfeng Ye
