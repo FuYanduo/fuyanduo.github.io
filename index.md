@@ -12,25 +12,23 @@ My name is Yanduo Fu (付彦铎 in Chinese). I am currently a third-year Eng.D c
 
 ✨ In life, I prefer to engage in some gentle exercises, such as health-preserving basketball, yoga, strength training, jogging, reading, and listening to the same piece of music repeatedly. I also occasionally play single-player games (e.g., NBA 2K series).
 
+🧗 **Motto:** Be real, stay curious, keep dreaming.
 
-🧗 **Motto:** Do it anyway.
+📮 **Email:** fuyanduo@foxmail.com
 
 If you like the template of this homepage, welcome to star and fork the open-sourced template version [minimal-light](https://github.com/yaoyao-liu/minimal-light).
 
 ## News
 
-- **2024.09** A paper of password managers' protocol analysis is accepted by IEEE S&P 2025! 🥳🎉
+- **2025.09** **The Final Year! Everything will be ok.** ☘️
+- **2025.05** **过去种种，譬如昨日死，未来种种，譬如今日生**
+- **2024.12** A Long Journey to Hawaii, USA
+- **2024.09** A paper of password managers' protocol analysis is accepted by IEEE S&P 2025! Congratulations to my collegues. 🥳🎉
 - **2024.08** A paper of password managers' autofill feature is accepted by ACSAC 2024! 🥳🎉
 - **2022.09** I will pursue my Eng.D degree at Nankai University! **A New Journey! Everything will be ok.** ☘️
 
 {% include_relative _includes/publications.md %}
 
-<details>
-<summary>2024年终总结 别人眼中的你不是你，你眼中的别人才是你</summary>
+<small>I've been trying to minimize the use of social media. If it's convenient, I'd appreciate it if we could communicate via email or in person.😀</small>
 
-2024年终总结 别人眼中的你不是你，你眼中的别人才是你
-
-</details>
-
-
-*Updated at 2025/04/06.*
+*Updated at 2025/12/04.*
