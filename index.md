@@ -21,7 +21,6 @@ If you like the template of this homepage, welcome to star and fork the open-sou
 ## News
 
 - **2025.09** The Final Year! Everything will be ok. ☘️
-- **2025.05** 过去种种，譬如昨日死，未来种种，譬如今日生
 - **2024.12** A Long Journey to Hawaii, USA
 - **2024.09** A paper of password managers' protocol analysis is accepted by IEEE S&P 2025! Congratulations to my collegues. 🥳🎉
 - **2024.08** A paper of password managers' autofill feature is accepted by ACSAC 2024! 🥳🎉
@@ -31,4 +30,6 @@ If you like the template of this homepage, welcome to star and fork the open-sou
 
 <small>I've been trying to minimize the use of social media. If it's convenient, I'd appreciate it if we could communicate via email or in person.😀</small>
 
-*Updated at 2025/12/04.*
+
+
+*Updated at 2026/01/13.*
