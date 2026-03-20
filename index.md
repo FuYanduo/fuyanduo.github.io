@@ -8,7 +8,7 @@ Hello there🫡! Wish you a nice day 😁
 
 My name is Yanduo Fu (付彦铎 in Chinese). 
 I am currently a final-year Eng.D. candidate at [Nankai University](https://www.nankai.edu.cn/), fortunate to be supervised by [Professor Ding Wang](http://wangdingg.weebly.com/).
-Prior to this, I earned a joint Master of Engineering degree with the University of Chinese Academy of Sciences ([UCAS](https://www.ucas.ac.cn/)), and the Institute of Information Engineering ([IIE](https://www.iie.ac.cn/)), Chinese Academy of Sciences, supervised by [Professor-Level Senior Engineer Qiongxiao Wang](https://dblp.org/pid/52/8379.html) in the research team led by [Professor Jingqiang Lin](https://lin-jingqiang.github.io/). 
+Prior to this, I earned a joint Master of Engineering degree with the University of Chinese Academy of Sciences ([UCAS](https://www.ucas.ac.cn/)), and the Institute of Information Engineering ([IIE](https://www.iie.ac.cn/)), Chinese Academy of Sciences, supervised by [Professor-Level Senior Engineer Qiongxiao Wang](https://dblp.uni-trier.de/pid/52/8379.html) in the research team led by [Professor Jingqiang Lin](https://lin-jingqiang.github.io/). 
 During this period, I also participated in an academic seminar led by [Professor Bingyu Li](https://www.researchgate.net/profile/Bingyu-Li-12). 
 Additionally, I have been interning with [Professor Huawei Mei's Dreamtech group](https://dreamtech.team/) since my sophomore year at North China Electric Power University ([NCEPU](https://net.ncepu.edu.cn/)) in Baoding.
 
