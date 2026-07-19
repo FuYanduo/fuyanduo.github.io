@@ -23,7 +23,7 @@ If you find this homepage template helpful, welcome to star and fork the open-so
 
 ## News
 
-- **2026.07** I released [research-paper-refs](https://github.com/freedomFu/research-paper-refs)to collect and order your references for academic research and paper writing. [![GitHub stars](https://img.shields.io/github/stars/freedomFu/research-paper-refs?style=social)](https://github.com/freedomFu/research-paper-refs/stargazers)
+- **2026.07** I released [research-paper-refs](https://github.com/freedomFu/research-paper-refs) to collect and order your references for academic research and paper writing. [![GitHub stars](https://img.shields.io/github/stars/freedomFu/research-paper-refs?style=social)](https://github.com/freedomFu/research-paper-refs/stargazers)
 - **2026.03** I entered the final stage of my Eng.D. journey at Nankai University.
 - **2024.09** Our paper on password managers’ protocol analysis was accepted to **IEEE S&P 2025**.
 - **2024.08** Our paper on password managers’ autofill features was accepted to **ACSAC 2024**.
