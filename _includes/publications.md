@@ -1,14 +1,48 @@
 <h2 id="research-works" class="section-heading">Research Works</h2>
 
-<div class="publications">
-  <div class="publication-heading">
-    <h3>Selected Publications</h3>
-    <span>{{ site.data.publications.main | size }} papers</span>
+<div class="publications" data-publications>
+  <div class="publication-controls">
+    <h3>
+      Publications
+      <span class="view-switcher" aria-label="Change publication view">
+        (
+        <button type="button" class="view-control is-active" data-publication-view="selected" aria-pressed="true">show selected</button>
+        <span aria-hidden="true">/</span>
+        <button type="button" class="view-control" data-publication-view="date" aria-pressed="false">show all by date</button>
+        <span aria-hidden="true">/</span>
+        <button type="button" class="view-control" data-publication-view="topic" aria-pressed="false">show all by topic</button>
+        )
+      </span>
+    </h3>
+
+    <p class="topic-controls">
+      <strong>Topics:</strong>
+      <button type="button" data-topic-filter="identity-authentication">Identity Authentication</button>
+      <span aria-hidden="true">/</span>
+      <button type="button" data-topic-filter="password-managers">Password Managers</button>
+      <span aria-hidden="true">/</span>
+      <button type="button" data-topic-filter="usable-security">Usable Security</button>
+      <span aria-hidden="true">/</span>
+      <button type="button" data-topic-filter="empirical-security">Empirical Security</button>
+      <span aria-hidden="true">/</span>
+      <button type="button" data-topic-filter="digital-forensics">Digital Forensics</button>
+      <span aria-hidden="true">/</span>
+      <button type="button" data-topic-filter="software-testing">Software Testing</button>
+      <span class="topic-note">(* indicates equal contribution)</span>
+    </p>
   </div>
 
-  <ol class="bibliography">
+  <p class="publication-status" data-publication-status aria-live="polite"></p>
+
+  <ol class="bibliography" data-publication-list>
     {% for link in site.data.publications.main %}
-    <li class="publication-card">
+    <li
+      class="publication-card"
+      data-year="{{ link.year }}"
+      data-selected="{{ link.selected }}"
+      data-primary-topic="{{ link.primary_topic }}"
+      data-topics="{{ link.topics | join: ' ' }}"
+    >
       <div class="publication-number" aria-hidden="true">{{ forloop.index | prepend: "0" | slice: -2, 2 }}</div>
       <div class="publication-body">
         <h4 class="title">

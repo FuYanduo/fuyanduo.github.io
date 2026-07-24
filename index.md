@@ -21,11 +21,34 @@ Outside research, I enjoy indoor climbing, yoga, reading, and other forms of mov
 
 ## News
 
-- **2026.07** I released [research-paper-refs](https://github.com/freedomFu/research-paper-refs) to collect and order your references for academic research and paper writing. [![GitHub stars](https://img.shields.io/github/stars/freedomFu/research-paper-refs?style=social)](https://github.com/freedomFu/research-paper-refs/stargazers)
-- **2026.03** I entered the final stage of my Eng.D. journey at Nankai University.
-- **2024.09** Our paper on password managers’ protocol analysis was accepted to **IEEE S&P 2025**.
-- **2024.08** Our paper on password managers’ autofill features was accepted to **ACSAC 2024**.
-- **2022.09** I started my Eng.D. study at **Nankai University**.
+<ul class="news-list">
+  <li>
+    <strong class="news-date">[Jul. 2026]</strong>
+    I released <strong><a href="https://github.com/freedomFu/research-paper-refs">research-paper-refs</a></strong>, a tool for collecting and organizing references for academic research and paper writing.
+    <a class="news-extra" href="https://github.com/freedomFu/research-paper-refs/stargazers">View on GitHub</a>
+  </li>
+  <li><strong class="news-date">[Mar. 2026]</strong> I entered the final stage of my Eng.D. journey at Nankai University.</li>
+  <li><strong class="news-date">[Sep. 2024]</strong> Our paper on password managers’ protocol analysis was accepted to <strong>IEEE S&amp;P 2025</strong>.</li>
+  <li><strong class="news-date">[Aug. 2024]</strong> Our paper on password managers’ autofill features was accepted to <strong>ACSAC 2024</strong>.</li>
+  <li><strong class="news-date">[Sep. 2022]</strong> I started my Eng.D. study at <strong>Nankai University</strong>.</li>
+</ul>
+
+## Research Statement
+
+<div class="research-statement">
+  <section>
+    <h3>Identity Authentication &amp; Password Managers</h3>
+    <p>I study the security and privacy of identity authentication systems, with a particular focus on password managers. My research examines both protocol-level security and user-facing mechanisms such as autofill, aiming to identify weaknesses that emerge when security designs meet real-world implementations.</p>
+  </section>
+  <section>
+    <h3>Usable Security &amp; Empirical Studies</h3>
+    <p>I am interested in security mechanisms that are not only technically sound but also understandable and dependable in practice. Through empirical analysis, I investigate how deployed systems behave, how implementation choices affect users, and how security technologies can better protect privacy without creating unnecessary friction.</p>
+  </section>
+  <section>
+    <h3>Digital Forensics &amp; Software Testing</h3>
+    <p>I also explore digital forensics and security-oriented software testing. This direction focuses on systematically examining security tools, certificate and signature validation, and other trust mechanisms to uncover inconsistencies, implementation defects, and gaps between specifications and actual behavior.</p>
+  </section>
+</div>
 
 {% include_relative _includes/publications.md %}
 
