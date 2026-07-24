@@ -38,7 +38,7 @@ Outside research, I enjoy indoor climbing, yoga, reading, and other forms of mov
 <div class="research-statement">
   <section>
     <h3>Identity Authentication &amp; Password Managers</h3>
-    <p>I study the security and privacy of identity authentication systems, with a particular focus on password managers. My research examines both protocol-level security and user-facing mechanisms such as autofill, aiming to identify weaknesses that emerge when security designs meet real-world implementations.</p>
+    <p>I study the security and privacy of identity authentication systems, with a particular focus on password managers. My research examines and user-facing mechanisms such as autofill, aiming to identify weaknesses that emerge when security designs meet real-world implementations.</p>
   </section>
   <section>
     <h3>Usable Security &amp; Empirical Studies</h3>

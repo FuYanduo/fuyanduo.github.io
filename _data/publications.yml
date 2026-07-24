@@ -6,8 +6,6 @@ main:
     primary_topic: password-managers
     topics:
       - password-managers
-      - identity-authentication
-      - usable-security
     authors: Yihe Duan, Ding Wang, <strong>Yanduo Fu</strong>
     conference: The 46th IEEE Symposium on Security and Privacy <strong>(IEEE S&P)</strong>, 2025.
     pdf: https://www.researchgate.net/publication/385420109_Security_Analysis_of_Master-Password-Protected_Password_Management_Protocols
@@ -16,7 +14,7 @@ main:
   - title: "Leaky Autofill: An Empirical Study on the Privacy Threat of Password Managers' Autofill Functionality"
     year: 2024
     selected: true
-    primary_topic: usable-security
+    primary_topic: password-managers
     topics:
       - password-managers
       - usable-security
@@ -31,10 +29,9 @@ main:
   - title: "The Broken Verifying: Inspections at Verification Tools for Windows Code-Signing Signatures"
     year: 2023
     selected: false
-    primary_topic: digital-forensics
+    primary_topic: digital-certificate
     topics:
-      - digital-forensics
-      - software-testing
+      - digital-certificate
       - empirical-security
     authors: Guangqi Liu, Qiongxiao Wang, Cunqing Ma, Jingqiang Lin, <strong>Yanduo Fu</strong>, Bingyu Li, Dingfeng Ye
     conference: The 22nd IEEE International Conference on Trust, Security and Privacy in Computing and Communications <strong>(TrustCom)</strong>, 2023.
@@ -44,9 +41,9 @@ main:
   - title: "You Cannot Fully Trust Your Device: An Empirical Study of Client-Side Certificate Validation in WPA2-Enterprise Networks"
     year: 2022
     selected: false
-    primary_topic: identity-authentication
+    primary_topic: empirical-security
     topics:
-      - identity-authentication
+      - digital-certificate
       - empirical-security
     authors: Li Song, Qiongxiao Wang, Shijie Jia, Jingqiang Lin, Linli Lu, <strong>Yanduo Fu</strong>
     conference: The 21st IEEE International Conference on Trust, Security and Privacy in Computing and Communications <strong>(TrustCom)</strong>, 2022.
@@ -56,9 +53,9 @@ main:
   - title: "Exploring the Security Issues of Trusted CA Certificate Management"
     year: 2021
     selected: false
-    primary_topic: identity-authentication
+    primary_topic: empirical-security
     topics:
-      - identity-authentication
+      - digital-certificate
       - empirical-security
     authors: <strong>Yanduo Fu</strong>, Qiongxiao Wang, Jingqiang Lin, Aozhuo Sun, Linli Lu
     conference: The 23rd International Conference on Information and Communications Security <strong>(ICICS)</strong>, 2021.
