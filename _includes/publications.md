@@ -23,7 +23,7 @@
       <span aria-hidden="true">/</span>
       <button type="button" data-topic-filter="empirical-security">Empirical Security</button>
       <span aria-hidden="true">/</span>
-      <button type="button" data-topic-filter="digital-forensics">Digital Certificate</button>
+      <button type="button" data-topic-filter="digital-certificate">Digital Certificate</button>
       <span class="topic-note">(* indicates equal contribution)</span>
     </p>
   </div>
