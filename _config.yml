@@ -2,7 +2,12 @@
 title: Fu Yanduo
 position: Information Security Researcher
 affiliation: Nankai University
+affiliation_link: https://www.nankai.edu.cn/
 email: fuyanduo (at) foxmail (dot) com
+research_interests:
+  - Identity Authentication
+  - Password Managers
+  - Usable Security
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
@@ -33,11 +38,11 @@ enable_footnote: true
 
 # Auto Dark Mode
 # You may use the option to disable the automatic dark theme
-auto_dark_mode: true
+auto_dark_mode: false
 
 # Font
 # You can use this option to choose between Serif or Sans Serif fonts.
-font: "Serif" # or "Sans Serif"
+font: "Sans Serif" # or "Serif"
 
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics

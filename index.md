@@ -19,8 +19,6 @@ Outside research, I enjoy indoor climbing, yoga, reading, and other forms of mov
 **Motto:** Be real, stay curious, keep dreaming.  
 **Email:** [fuyanduo@foxmail.com](mailto:fuyanduo@foxmail.com)
 
-If you find this homepage template helpful, welcome to star and fork the open-source template [minimal-light](https://github.com/yaoyao-liu/minimal-light).
-
 ## News
 
 - **2026.07** I released [research-paper-refs](https://github.com/freedomFu/research-paper-refs) to collect and order your references for academic research and paper writing. [![GitHub stars](https://img.shields.io/github/stars/freedomFu/research-paper-refs?style=social)](https://github.com/freedomFu/research-paper-refs/stargazers)
@@ -33,4 +31,4 @@ If you find this homepage template helpful, welcome to star and fork the open-so
 
 <small>I try to minimize the use of social media. If convenient, please feel free to reach out via email or in person.</small>
 
-*Last updated: 2026/07/18.*
+*Last updated: 2026/07/24.*

@@ -1,63 +1,35 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
+<h2 id="research-works" class="section-heading">Research Works</h2>
 
 <div class="publications">
-<ol class="bibliography">
-
-{% for link in site.data.publications.main %}
-
-<li>
-<div class="pub-row">
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
-      <div class="author">{{ link.authors }}</div>
-      <div class="periodical"><em>{{ link.conference }}</em>
-      </div>
-    <div class="links">
-      {% if link.pdf %} 
-      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      {% endif %}
-      {% if link.code %} 
-      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      {% if link.codenotes %} 
-      {{ link.codenotes }}
-      {% endif %}
-      {% endif %}
-      {% if link.page %} 
-      <a href="{{ link.page }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      {% endif %}
-      {% if link.slides %}
-      <a href="{{ link.slides }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Slides</a>
-      {% endif %}
-      {% if link.bibtex %} 
-      <a href="{{ link.bibtex }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
-      {% endif %}
-      {% if link.notes %} 
-      <a class="btn btn-sm z-depth-0" style="font-size:12px;">{{ link.notes }}</a>
-      {% endif %}
-      {% if link.ccfa %} 
-      <a class="btn btn-sm z-depth-0" style="font-size:12px;background-color: #FF6B6B;">CCF-A</a>
-      {% endif %}
-      {% if link.ccfb %} 
-      <a class="btn btn-sm z-depth-0" style="font-size:12px;background-color: #FFE45C;">CCF-B</a>
-      {% endif %}
-      {% if link.ccfc %} 
-      <a class="btn btn-sm z-depth-0" style="font-size:12px;background-color: #74B9FF;">CCF-C</a>
-      {% endif %}
-      {% if link.ccfd %} 
-      <a class="btn btn-sm z-depth-0" style="font-size:12px;background-color: #76D7A0;">CCF-None</a>
-      {% endif %}
-      {% if link.others %} 
-      {{ link.others }}
-      {% endif %}
-    </div>
+  <div class="publication-heading">
+    <h3>Selected Publications</h3>
+    <span>{{ site.data.publications.main | size }} papers</span>
   </div>
+
+  <ol class="bibliography">
+    {% for link in site.data.publications.main %}
+    <li class="publication-card">
+      <div class="publication-number" aria-hidden="true">{{ forloop.index | prepend: "0" | slice: -2, 2 }}</div>
+      <div class="publication-body">
+        <h4 class="title">
+          {% if link.pdf %}<a href="{{ link.pdf }}" target="_blank" rel="noopener">{{ link.title }}</a>{% else %}{{ link.title }}{% endif %}
+        </h4>
+        <div class="author">{{ link.authors }}</div>
+        <div class="periodical"><em>{{ link.conference }}</em></div>
+        <div class="links">
+          {% if link.pdf %}<a href="{{ link.pdf }}" target="_blank" rel="noopener">Paper</a>{% endif %}
+          {% if link.code %}<a href="{{ link.code }}" target="_blank" rel="noopener">Code</a>{% endif %}
+          {% if link.page %}<a href="{{ link.page }}" target="_blank" rel="noopener">Project</a>{% endif %}
+          {% if link.slides %}<a href="{{ link.slides }}" target="_blank" rel="noopener">Slides</a>{% endif %}
+          {% if link.bibtex %}<a href="{{ link.bibtex }}" target="_blank" rel="noopener">BibTeX</a>{% endif %}
+          {% if link.ccfa %}<span class="rank rank-a">CCF-A</span>{% endif %}
+          {% if link.ccfb %}<span class="rank rank-b">CCF-B</span>{% endif %}
+          {% if link.ccfc %}<span class="rank rank-c">CCF-C</span>{% endif %}
+          {% if link.ccfd %}<span class="rank rank-other">CCF-None</span>{% endif %}
+          {% if link.notes %}<span class="note">{{ link.notes }}</span>{% endif %}
+        </div>
+      </div>
+    </li>
+    {% endfor %}
+  </ol>
 </div>
-</li>
-
-<!-- <br> -->
-
-{% endfor %}
-
-</ol>
-</div>
-
