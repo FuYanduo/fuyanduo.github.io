@@ -45,10 +45,6 @@ Outside research, I enjoy indoor climbing, yoga, reading, and other forms of mov
     <h3>Usable Security &amp; Empirical Studies</h3>
     <p>I am interested in security mechanisms that are not only technically sound but also understandable and dependable in practice. Through empirical analysis, I investigate how deployed systems behave, how implementation choices affect users, and how security technologies can better protect privacy without creating unnecessary friction.</p>
   </section>
-  <section>
-    <h3>Digital Forensics &amp; Software Testing</h3>
-    <p>I also explore digital forensics and security-oriented software testing. This direction focuses on systematically examining security tools, certificate and signature validation, and other trust mechanisms to uncover inconsistencies, implementation defects, and gaps between specifications and actual behavior.</p>
-  </section>
 </div>
 
 {% include_relative _includes/publications.md %}

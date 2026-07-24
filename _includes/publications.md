@@ -17,17 +17,13 @@
 
     <p class="topic-controls">
       <strong>Topics:</strong>
-      <button type="button" data-topic-filter="identity-authentication">Identity Authentication</button>
-      <span aria-hidden="true">/</span>
       <button type="button" data-topic-filter="password-managers">Password Managers</button>
       <span aria-hidden="true">/</span>
       <button type="button" data-topic-filter="usable-security">Usable Security</button>
       <span aria-hidden="true">/</span>
       <button type="button" data-topic-filter="empirical-security">Empirical Security</button>
       <span aria-hidden="true">/</span>
-      <button type="button" data-topic-filter="digital-forensics">Digital Forensics</button>
-      <span aria-hidden="true">/</span>
-      <button type="button" data-topic-filter="software-testing">Software Testing</button>
+      <button type="button" data-topic-filter="digital-forensics">Digital Certificate</button>
       <span class="topic-note">(* indicates equal contribution)</span>
     </p>
   </div>
