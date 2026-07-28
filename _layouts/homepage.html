@@ -18,6 +18,20 @@
     <link rel="stylesheet" href="{{ "/assets/css/publications-no-dark-mode.css" | relative_url }}">
   </head>
   <body>
+    <button type="button" class="toc-toggle" id="toc-toggle" aria-expanded="false" aria-controls="toc-panel" aria-label="Toggle table of contents">
+      <i class="fa-solid fa-list-ul toc-toggle-open" aria-hidden="true"></i>
+      <i class="fa-solid fa-xmark toc-toggle-close" aria-hidden="true"></i>
+    </button>
+
+    <aside class="toc-panel" id="toc-panel" aria-label="Table of contents">
+      <div class="toc-head">
+        <span class="toc-title"><i class="fa-solid fa-compass" aria-hidden="true"></i> Contents</span>
+      </div>
+      <nav class="toc-nav" id="toc-nav" aria-label="Page sections"></nav>
+    </aside>
+
+    <div class="toc-backdrop" id="toc-backdrop"></div>
+
     <div class="page-shell">
       <header class="profile-hero">
         <div class="portrait-panel">
@@ -90,6 +104,7 @@
     </div>
 
     <script src="{{ "/assets/js/publications-filter.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/toc.js" | relative_url }}"></script>
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
