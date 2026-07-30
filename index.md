@@ -26,7 +26,7 @@ Outside research, I enjoy indoor climbing, yoga, reading, and other forms of mov
   <li>
     <strong class="news-date">[Jul. 2026]</strong>
     I released <strong><a href="https://github.com/freedomFu/research-paper-refs">research-paper-refs</a></strong>, a tool for collecting and organizing references for academic research and paper writing.
-    <a class="news-extra" href="https://github.com/freedomFu/research-paper-refs/stargazers">View on GitHub</a>
+    <a class="news-extra" href="https://github.com/freedomFu/research-paper-refs">View on GitHub</a>
   </li>
   <li><strong class="news-date">[Mar. 2026]</strong> I entered the final stage of my Eng.D. journey at Nankai University.</li>
   <li><strong class="news-date">[Sep. 2024]</strong> Our paper on password managers’ protocol analysis was accepted to <strong>IEEE S&amp;P 2025</strong>.</li>
