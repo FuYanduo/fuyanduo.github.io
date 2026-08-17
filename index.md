@@ -5,7 +5,7 @@ layout: homepage
 <section class="epigraph">
   <blockquote>
     <p>“Be real, stay curious, keep dreaming.”</p>
-    <cite>Personal motto</cite>
+    <!-- <cite>Personal motto</cite> -->
   </blockquote>
 </section>
 
@@ -35,11 +35,11 @@ layout: homepage
   <h2><span>Dispatches</span></h2>
   <ul>
     <li><time>09 / 2024</time>Paper on password-manager protocol analysis accepted by <strong>IEEE S&amp;P 2025</strong>.</li>
+    <li><time>08 / 2024</time>Paper on password-manager autofill accepted by <strong>ACSAC 2024</strong>.</li>
   </ul>
   <details>
     <summary>view earlier dispatches</summary>
     <ul>
-      <li><time>08 / 2024</time>Paper on password-manager autofill accepted by <strong>ACSAC 2024</strong>.</li>
       <li><time>09 / 2022</time>Started my Eng.D. study at Nankai University.</li>
     </ul>
   </details>
