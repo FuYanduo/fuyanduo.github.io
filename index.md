@@ -10,7 +10,9 @@ layout: homepage
 </section>
 
 <section class="about">
-  <img class="portrait" src="{{ site.avatar | relative_url }}" alt="Fu Yanduo">
+  <div class="portrait-frame">
+    <img class="portrait" src="{{ site.avatar | relative_url }}" alt="Fu Yanduo">
+  </div>
   <div>
     <p class="mission-text">I study the fragile boundary between convenience and security in identity systems. My work focuses on password managers, authentication, and usable security, with the aim of making real-world protection both dependable and humane.</p>
     <p>I am a final-year Eng.D. candidate at <a href="https://www.nankai.edu.cn/" target="_blank" rel="noopener">Nankai University</a>, advised by <a href="https://cssnku.github.io/" target="_blank" rel="noopener">Professor Ding Wang</a>.</p>
