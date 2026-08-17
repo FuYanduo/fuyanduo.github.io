@@ -90,12 +90,12 @@
   display: grid;
   grid-template-columns: 52px minmax(0, 1fr);
   gap: 18px;
-  margin: 0 0 18px;
-  padding: 20px 22px 20px 0;
-  border: 1px solid var(--line);
-  border-left: 4px solid var(--green-700);
-  border-radius: 0 8px 8px 0;
-  background: var(--white);
+  margin: 0;
+  padding: 22px 0;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  background: transparent;
   transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease;
 }
 
@@ -125,10 +125,9 @@
 }
 
 .publication-card:hover {
-  border-color: #bed8ca;
-  border-left-color: var(--green-900);
-  box-shadow: 0 8px 22px rgba(16, 91, 66, .08);
-  transform: translateY(-1px);
+  border-color: var(--green-100);
+  box-shadow: none;
+  transform: none;
 }
 
 .publication-number {
@@ -189,7 +188,7 @@
   min-height: 25px;
   padding: 3px 9px;
   border: 1px solid #c6ddd1;
-  border-radius: 4px;
+  border-radius: 999px;
   background: var(--green-50);
   color: var(--green-900);
   font-size: 11px;

@@ -16,8 +16,6 @@ More broadly, I hope to build security technologies that better protect users’
 
 Outside research, I enjoy indoor climbing, yoga, reading, and other forms of movement that help me better understand the body and maintain balance.
 
-**Motto:** Be real, stay curious, keep dreaming.
-
 **Email:** [fuyanduo@foxmail.com](mailto:fuyanduo@foxmail.com)
 
 ## News
@@ -49,6 +47,8 @@ Outside research, I enjoy indoor climbing, yoga, reading, and other forms of mov
 
 {% include_relative _includes/publications.md %}
 
+{% include_relative _includes/services.md %}
+
 <small>I try to minimize the use of social media. If convenient, please feel free to reach out via email or in person.</small>
 
-*Last updated: 2026/07/24.*
+*Last updated: 2026/08/17.*

@@ -1,4 +1,4 @@
-<h2 id="research-works" class="section-heading">Research Works</h2>
+<h2 id="research-works" class="section-heading">Publications</h2>
 
 <div class="publications" data-publications>
   <div class="publication-controls">
