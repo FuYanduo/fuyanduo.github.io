@@ -2,53 +2,61 @@
 layout: homepage
 ---
 
-## About Me
+<section class="epigraph">
+  <blockquote>
+    <p>“Be real, stay curious, keep dreaming.”</p>
+    <cite>Personal motto</cite>
+  </blockquote>
+</section>
 
-My name is Yanduo Fu (付彦铎 in Chinese). 
-I am currently a final-year Eng.D. candidate at [Nankai University](https://www.nankai.edu.cn/), fortunate to be supervised by [Professor Ding Wang](https://cssnku.github.io/).
-Prior to this, I earned a joint Master of Engineering degree with the University of Chinese Academy of Sciences ([UCAS](https://www.ucas.ac.cn/)), and the Institute of Information Engineering ([IIE](https://www.iie.ac.cn/)), Chinese Academy of Sciences, supervised by [Professor-Level Senior Engineer Qiongxiao Wang](https://dblp.uni-trier.de/pid/52/8379.html) in the research team led by [Professor Jingqiang Lin](https://lin-jingqiang.github.io/). 
-During this period, I also participated in an academic seminar led by [Professor Bingyu Li](https://www.researchgate.net/profile/Bingyu-Li-12). 
-Additionally, I have been interning with [Professor Huawei Mei's Dreamtech group](https://dreamtech.team/) since my sophomore year at North China Electric Power University ([NCEPU](https://net.ncepu.edu.cn/)) in Baoding.
+<section class="about">
+  <img class="portrait" src="{{ site.avatar | relative_url }}" alt="Fu Yanduo">
+  <div>
+    <p class="mission-text">I study the fragile boundary between convenience and security in identity systems. My work focuses on password managers, authentication, and usable security, with the aim of making real-world protection both dependable and humane.</p>
+    <p>I am a final-year Eng.D. candidate at <a href="https://www.nankai.edu.cn/" target="_blank" rel="noopener">Nankai University</a>, advised by <a href="https://cssnku.github.io/" target="_blank" rel="noopener">Professor Ding Wang</a>.</p>
+    <p class="contact"><a href="mailto:fuyanduo@foxmail.com">fuyanduo@foxmail.com</a> &nbsp;·&nbsp; <a href="{{ site.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a> &nbsp;·&nbsp; <a href="{{ site.github_link }}" target="_blank" rel="noopener">GitHub</a></p>
+  </div>
+</section>
 
-My research mainly focuses on **identity authentication, password managers, and usable security**. 
-I am also interested in **empirical security studies, digital forensics, and software testing**. 
-More broadly, I hope to build security technologies that better protect users’ privacy and improve the trustworthiness of real-world systems.
+<section id="dispatches" class="block dispatches">
+  <h2><span>Dispatches</span></h2>
+  <ul>
+    <li><time>07 / 2026</time>Released <a href="https://github.com/freedomFu/research-paper-refs" target="_blank" rel="noopener">research-paper-refs</a>, a tool for collecting and organizing academic references.</li>
+  </ul>
+  <details>
+    <summary>view earlier dispatches</summary>
+    <ul>
+      <li><time>03 / 2026</time>Entered the final stage of my Eng.D. journey at Nankai University.</li>
+      <li><time>09 / 2024</time>Paper on password-manager protocol analysis accepted by <strong>IEEE S&amp;P 2025</strong>.</li>
+      <li><time>08 / 2024</time>Paper on password-manager autofill accepted by <strong>ACSAC 2024</strong>.</li>
+      <li><time>09 / 2022</time>Started my Eng.D. study at Nankai University.</li>
+    </ul>
+  </details>
+</section>
 
-Outside research, I enjoy indoor climbing, yoga, reading, and other forms of movement that help me better understand the body and maintain balance.
+<section id="works" class="block works">
+  <h2><span>Publications</span></h2>
+  {% for paper in site.data.publications.main %}
+  <article>
+    <p class="title">{% if paper.pdf %}<a href="{{ paper.pdf }}" target="_blank" rel="noopener">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</p>
+    <p class="authors">{{ paper.authors }}</p>
+    <p class="venue">{{ paper.conference }}</p>
+    {% if paper.pdf or paper.code or paper.page or paper.slides %}
+    <p class="meta">
+      {% if paper.pdf %}<a href="{{ paper.pdf }}" target="_blank" rel="noopener">paper</a>{% endif %}
+      {% if paper.code %}<a href="{{ paper.code }}" target="_blank" rel="noopener">code</a>{% endif %}
+      {% if paper.page %}<a href="{{ paper.page }}" target="_blank" rel="noopener">project</a>{% endif %}
+      {% if paper.slides %}<a href="{{ paper.slides }}" target="_blank" rel="noopener">slides</a>{% endif %}
+    </p>
+    {% endif %}
+  </article>
+  {% endfor %}
+</section>
 
-**Email:** [fuyanduo@foxmail.com](mailto:fuyanduo@foxmail.com)
-
-## News
-
-<ul class="news-list">
-  <li>
-    <strong class="news-date">[Jul. 2026]</strong>
-    I released <strong><a href="https://github.com/freedomFu/research-paper-refs">research-paper-refs</a></strong>, a tool for collecting and organizing references for academic research and paper writing.
-    <a class="news-extra" href="https://github.com/freedomFu/research-paper-refs">View on GitHub</a>
-  </li>
-  <li><strong class="news-date">[Mar. 2026]</strong> I entered the final stage of my Eng.D. journey at Nankai University.</li>
-  <li><strong class="news-date">[Sep. 2024]</strong> Our paper on password managers’ protocol analysis was accepted to <strong>IEEE S&amp;P 2025</strong>.</li>
-  <li><strong class="news-date">[Aug. 2024]</strong> Our paper on password managers’ autofill features was accepted to <strong>ACSAC 2024</strong>.</li>
-  <li><strong class="news-date">[Sep. 2022]</strong> I started my Eng.D. study at <strong>Nankai University</strong>.</li>
-</ul>
-
-## Research Statement
-
-<div class="research-statement">
-  <section>
-    <h3>Identity Authentication &amp; Password Managers</h3>
-    <p>I study the security and privacy of identity authentication systems, with a particular focus on password managers. My research examines and user-facing mechanisms such as autofill, aiming to identify weaknesses that emerge when security designs meet real-world implementations.</p>
-  </section>
-  <section>
-    <h3>Usable Security &amp; Empirical Studies</h3>
-    <p>I am interested in security mechanisms that are not only technically sound but also understandable and dependable in practice. Through empirical analysis, I investigate how deployed systems behave, how implementation choices affect users, and how security technologies can better protect privacy without creating unnecessary friction.</p>
-  </section>
-</div>
-
-{% include_relative _includes/publications.md %}
-
-{% include_relative _includes/services.md %}
-
-<small>I try to minimize the use of social media. If convenient, please feel free to reach out via email or in person.</small>
-
-*Last updated: 2026/08/17.*
+<section id="service" class="block service">
+  <h2><span>Service</span></h2>
+  <ul>
+    <li>IEEE Transactions on Dependable and Secure Computing (<strong>TDSC</strong>) &nbsp;·&nbsp; Reviewer &nbsp;·&nbsp; 2026–present</li>
+    <li>International Conference on Information and Communications Security (<strong>ICICS</strong>) &nbsp;·&nbsp; External Reviewer &nbsp;·&nbsp; 2023</li>
+  </ul>
+</section>
