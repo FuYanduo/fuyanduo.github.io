@@ -32,8 +32,6 @@ layout: homepage
 <section id="dispatches" class="block dispatches">
   <h2><span>Dispatches</span></h2>
   <ul>
-    <li><time>07 / 2026</time>Released <a href="https://github.com/freedomFu/research-paper-refs" target="_blank" rel="noopener">research-paper-refs</a>, a tool for collecting and organizing academic references.</li>
-    <li><time>03 / 2026</time>Entered the final stage of my Eng.D. journey at Nankai University.</li>
     <li><time>09 / 2024</time>Paper on password-manager protocol analysis accepted by <strong>IEEE S&amp;P 2025</strong>.</li>
   </ul>
   <details>
@@ -52,12 +50,16 @@ layout: homepage
     <p class="title">{% if paper.pdf %}<a href="{{ paper.pdf }}" target="_blank" rel="noopener">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</p>
     <p class="authors">{{ paper.authors }}</p>
     <p class="venue">{{ paper.conference }}</p>
-    {% if paper.pdf or paper.code or paper.page or paper.slides %}
+    {% if paper.pdf or paper.code or paper.page or paper.slides or paper.ccfa or paper.ccfb or paper.ccfc or paper.ccfd %}
     <p class="meta">
       {% if paper.pdf %}<a href="{{ paper.pdf }}" target="_blank" rel="noopener">paper</a>{% endif %}
       {% if paper.code %}<a href="{{ paper.code }}" target="_blank" rel="noopener">code</a>{% endif %}
       {% if paper.page %}<a href="{{ paper.page }}" target="_blank" rel="noopener">project</a>{% endif %}
       {% if paper.slides %}<a href="{{ paper.slides }}" target="_blank" rel="noopener">slides</a>{% endif %}
+      {% if paper.ccfa %}<span class="rank rank-a">CCF-A</span>{% endif %}
+      {% if paper.ccfb %}<span class="rank rank-b">CCF-B</span>{% endif %}
+      {% if paper.ccfc %}<span class="rank rank-c">CCF-C</span>{% endif %}
+      {% if paper.ccfd %}<span class="rank rank-other">CCF-None</span>{% endif %}
     </p>
     {% endif %}
   </article>
