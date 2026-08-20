@@ -17,7 +17,7 @@ layout: homepage
     <p class="mission-text">I study the fragile boundary between convenience and security in identity systems. My work focuses on password managers, authentication, and usable security, with the aim of making real-world protection both dependable and humane.</p>
     <p>I am a final-year Eng.D. candidate at <a href="https://cc.nankai.edu.cn/" target="_blank" rel="noopener">Nankai University</a>, advised by <a href="https://cssnku.github.io/" target="_blank" rel="noopener">Professor Ding Wang</a>.</p>
     <p>Outside research, I enjoy yoga, running, and reading.</p>
-    <p class="contact"><a href="mailto:fuyanduo@foxmail.com">fuyanduo@foxmail.com</a> &nbsp;·&nbsp; <a href="{{ site.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a> &nbsp;·&nbsp; <a href="{{ site.github_link }}" target="_blank" rel="noopener">GitHub</a></p>
+    <p class="contact"><a href="mailto:fuyanduo@foxmail.com">fuyanduo@foxmail.com</a> &nbsp;·&nbsp; <a href="{{ site.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a> &nbsp;·&nbsp; <a href="{{ site.github_link }}" target="_blank" rel="noopener">GitHub</a> &nbsp;·&nbsp; <a href="{{ site.research_gate }}" target="_blank" rel="noopener">ResearchGate</a></p>
   </div>
 </section>
 
