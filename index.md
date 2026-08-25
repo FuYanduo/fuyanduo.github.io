@@ -35,8 +35,8 @@ layout: homepage
 <section id="dispatches" class="block dispatches">
   <h2><span>Dispatches</span></h2>
   <ul>
-    <li><time>08 / 2026</time>Paper on password-manager authentication mechanism empirical measurement accepted by <strong>ICICS 2026</strong>.</li>
-    <li><time>09 / 2024</time>Paper on password-manager protocol analysis accepted by <strong>IEEE S&P 2025</strong>. Congratulations to my colleagues.</li>
+    <li><time>08 / 2026</time>Paper on password manager authentication mechanism accepted by <strong>ICICS 2026</strong>.</li>
+    <li><time>09 / 2024</time>Paper on protocol analysis accepted by <strong>IEEE S&P 2025</strong>. Congratulations to my colleagues.</li>
     <li><time>08 / 2024</time>Paper on password-manager autofill accepted by <strong>ACSAC 2024</strong>.</li>
   </ul>
   <details>
