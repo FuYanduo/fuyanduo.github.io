@@ -1,4 +1,15 @@
 main:
+  - title: "An Empirical Measurement Study of Authentication Mechanisms in Cloud-Based Password Managers"
+    year: 2026
+    selected: true
+    primary_topic: password-managers
+    topics:
+      - password-managers
+      - empirical-security
+    authors: <strong>Yanduo Fu</strong>, Qingxuan Wang, Ding Wang
+    conference: The 28th International Conference on Information and Communications Security <strong>(ICICS)</strong>, 2026.
+    pdf: 
+    ccfa: CCF-C
 
   - title: "Security Analysis of Master-Password-Protected Password management Protocols"
     year: 2025
