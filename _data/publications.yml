@@ -8,7 +8,7 @@ main:
       - empirical-security
     authors: <strong>Yanduo Fu</strong>, Qingxuan Wang, Ding Wang
     conference: The 28th International Conference on Information and Communications Security <strong>(ICICS)</strong>, 2026.
-    pdf: 
+    pdf: https://www.researchgate.net/publication/413639828_An_Empirical_Measurement_Study_of_Authentication_Mechanisms_in_Cloud-Based_Password_Managers
     ccfc: CCF-C
 
   - title: "Security Analysis of Master-Password-Protected Password management Protocols"
